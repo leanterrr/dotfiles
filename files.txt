@@ -1,0 +1,31 @@
+# Hyprland y entorno
+.config/hypr
+.config/waybar
+.config/rofi
+.config/kitty
+.config/wlogout
+.config/quickshell
+
+# Temas
+.config/gtk-3.0
+.config/gtk-4.0
+.config/nwg-look
+.config/xsettingsd
+.config/mimeapps.list
+.config/user-dirs.dirs
+.config/user-dirs.locale
+
+# Shell y terminal
+.zshrc
+.config/starship.toml
+.config/fastfetch
+.config/btop
+.config/cava
+
+# Yazi: solo configuración, no flavors descargados
+.config/yazi/yazi.toml
+.config/yazi/theme.toml
+.config/yazi/package.toml
+
+# VSCode
+.config/Code/User/settings.json

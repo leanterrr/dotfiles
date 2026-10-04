@@ -1,0 +1,33 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 300,
+    "editor.fontFamily": "JetBrainsMonoNL Nerd Font Mono",
+    "editor.fontSize": 16,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "window.zoomLevel": 1,
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.showTabs": "none",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.minimap.enabled": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.formatOnSave": false,
+    "editor.guides.indentation": false,
+    "indenticator.width": 0.1,
+    "indenticator.color.dark": "rgba(255, 255, 255, 0.1)",
+    "editor.matchBrackets": "never",
+    "editor.autoClosingBrackets": "never",
+    "breadcrumbs.enabled": false,
+    "editor.glyphMargin": false,
+    "editor.autoIndent": "none",
+    "workbench.statusBar.visible": false,
+    "explorer.confirmDelete": false,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.editorAssociations": {
+        "*.pdf": "pdf.preview"
+    },
+    "workbench.colorTheme": "Vim Dark Soft",
+    "workbench.iconTheme": "material-icon-theme"
+    
+}

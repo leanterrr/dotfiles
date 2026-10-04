@@ -1,0 +1,6 @@
+brave-bin
+dracula-gtk-theme
+sddm-theme-sugar-candy-git
+wlogout
+xpadneo-dkms
+yay

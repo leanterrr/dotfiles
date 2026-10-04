@@ -1,0 +1,6 @@
+cache/
+.cache/
+*.log
+*.bak
+secrets.env
+.env
