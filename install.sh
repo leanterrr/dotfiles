@@ -15,6 +15,17 @@ if [[ "${SKIP_PKGS:-0}" != "1" ]]; then
 	sudo pacman -S --needed - < "$DOTFILES/packages/pacman.txt"
 fi
 
+if [[ "${SKIP_PKGS:-0}" != "1" ]]; then
+	if ! command -v yay &>/dev/null; then
+		echo "==> Instalando yay"
+		tmp="$(mktemp -d)"
+		git clone https://aur.archlinux.org/yay-bin.git "$tmp/yay-bin"
+		(cd "$tmp/yay-bin" && makepkg -si)
+	fi
+	echo "==> INstalando paquetes de aur.txt"
+	yay -S --needed $(< "$DOTFILES/packages/aur.txt")
+fi
+
 # 2. Copiar configuraciones
 while IFS= read -r path; do
 	[[ -z "$path" || "$path" == \#* ]] && continue
